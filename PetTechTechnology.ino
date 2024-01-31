@@ -381,6 +381,7 @@ void loop() {
   } else {
     one = 0;
     digitalWrite(ledPin, LOW); // Turn off the LED
+    digitalWrite(feedPin, LOW); // Turn off the LED
   }
 
   delay(doc["uptime"].as<int>());  // Add a delay to avoid excessive printing
