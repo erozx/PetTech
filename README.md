@@ -2,9 +2,12 @@
 Automatic Pet Feeder ESP8266
 
 # Require
-SPIFFs for upload data
-ArduinoJson
-ESP8266WiFi
-ESP8266WebServer
-FS
-Servo
+<ul>
+  <li>SPIFFs for upload data</li>
+  <li>ArduinoJson</li>
+  <li>ESP8266WiFi</li>
+  <li>ESP8266WebServer</li>
+  <li>FS</li>
+  <li>Servo</li>
+</ul>
+
