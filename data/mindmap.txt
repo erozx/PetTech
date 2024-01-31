@@ -1,0 +1,39 @@
+                    Automatic Pet Feeder
+                          Features
+                           |
+        +------------------+------------------+
+        |                                      |
+   Schedule                               Portion Control
+        |                                      |
++-------+--------+                  +-----------+-------------+
+|                |                  |                         |
+|   Meal Times  |                  |   Adjustable Portions  |
+|                |                  |                         |
+| - Set feeding  |                  | - Control the amount   |
+|   times        |                  |   of food per meal     |
+| - Frequency    |                  | - Prevent overfeeding  |
+|                |                  |                         |
++----------------+                  +-------------------------+
+        |                                      |
+   Notification                             Food Storage
+        |                                      |
++-------+--------+                  +-----------+-------------+
+|                |                  |                         |
+| Low Food      |                  |   Container            |
+| Notification  |                  |   Capacity             |
+|                |                  |   Refill Reminder      |
+| - Receive      |                  |   Sealed Storage       |
+|   alerts when  |                  |   Keep food fresh      |
+|   food is low  |                  |                         |
+|                |                  +-------------------------+
++----------------+                         |
+        |                                 V
+    Connectivity                      Additional Features
+        |                                      |
++-------+--------+                  +-----------+-------------+
+|                |                  |                         |
+|   Wi-Fi        |                  |   Voice Commands       |
+|   Bluetooth   |                  |   Webcam for Monitoring |
+|   Mobile App   |                  |   Customizable Design   |
+|                |                  |   Pet Activity Tracker |
++----------------+                  +-------------------------+

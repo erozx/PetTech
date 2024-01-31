@@ -1,0 +1,236 @@
+/*
+ * PetTech v1.0.0
+ * Copyright 2024 SRN PetTech
+ * Licensed under MIT (https://github.com/SANSDESU/PetTech/blob/main/LICENSE)
+ */
+
+@font-face {
+  font-family: 'Poppins';
+  font-weight: 300;
+  font-display: swap;
+  src: url(Poppins-Light.ttf);
+}
+
+@font-face {
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-display: swap;
+  src: url(Poppins-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'Poppins';
+  font-weight: 500;
+  font-display: swap;
+  src: url(Poppins-Medium.ttf);
+}
+
+@font-face {
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-display: swap;
+  src: url(Poppins-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: 'Poppins';
+  font-weight: 700;
+  font-display: swap;
+  src: url(Poppins-Bold.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+textarea {
+  font-family: 'Courier New', monospace;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+:root {
+  --clr: #FF79C6;
+}
+
+.comment {
+  color: #6272A4;
+}
+
+.purple {
+  color: #BD93F9;
+}
+
+.orange {
+  color: #FFB86C;
+}
+
+.green {
+  color: #50FA7B;
+}
+
+.red {
+  color: #FF5555;
+}
+
+.dark {
+  --body-color: #18191a;
+  --secondary-color: #3a3b3c;
+  --secondary-color-2: #18191a;
+  --sidebar-color: #242526;
+  --primary-color: #3a3b3c;
+  --primary-color-light: #3a3b3c;
+  --tag-bg-color: #3a3b3c;
+  --tag-color: #18191a;
+  --cntn-color: #4a4b4d;
+  --cntn-color2: #6c757d;
+  --toggle-color: #fff;
+  --text-color: #ccc;
+  --pick-btn: #3a3b3c;
+  --pick-btn-2: #ccc;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.hide-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  min-height: 100vh;
+  background-color: var(--body-color);
+  transition: var(--tran-05);
+}
+
+.h td,
+td.e,
+td.v,
+th {
+  border-color: var(--clr) !important;
+  color: #E2E4EF !important;
+}
+
+.h {
+  background-color: transparent !important;
+}
+
+.v {
+  background-color: transparent !important;
+}
+
+.e {
+  background-color: transparent !important;
+}
+
+.p {
+  font-size: 2rem;
+}
+
+td {
+  border-color: var(--clr) !important;
+}
+
+.center {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 100vh;
+}
+
+.center1 {
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+}
+
+.center2 {
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+  height: 100vh;
+}
+
+.labels {
+  font-size: 11px;
+}
+
+.home {
+  position: absolute;
+  top: 0;
+  /* left home */
+  height: 100vh;
+  /* height home */
+  width: 100%;
+  /* width home */
+  background-color: var(--body-color);
+  transition: var(--tran-05);
+}
+
+.home .text {
+  font-size: 30px;
+  font-weight: 500;
+  color: var(--text-color);
+  padding: 12px;
+}
+
+.cntn {
+  color: var(--cntn-color);
+  transition: var(--tran-05);
+}
+
+.cntn2 {
+  color: var(--cntn-color2);
+  transition: var(--tran-05);
+}
+
+.bg {
+  background: var(--sidebar-color);
+  transition: var(--tran-05);
+}
+
+address {
+  margin-bottom: 0;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #BD93F9;
+  border-color: #BD93F9;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: var(--clr) !important;
+  border-color: var(--clr) !important;
+}
+
+.btn-primary:focus {
+  color: #fff;
+  background-color: var(--clr) !important;
+  border-color: var(--clr) !important;
+}
+.reds {
+  color: #fff;
+  background-color: #FF5555;
+  border-color: #FF5555;
+}
+
+.reds:hover {
+  color: #fff;
+  background-color: #e04141 !important;
+  border-color: #e04141 !important;
+}
+
+.reds:focus {
+  color: #fff;
+  background-color: #e04141 !important;
+  border-color: #e04141 !important;
+}

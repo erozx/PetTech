@@ -1,0 +1,14 @@
+
+{
+    "uptime": 1000,
+    "status": "on",
+    "freq": 1000,
+    "feedtype": "hours",
+    "feedtimehour": 5,
+    "feedtimeday": 3,
+    "ssid":"PetTech-001",
+    "passwordwifi": "pettechadmin",
+    "username": "admin",
+    "password": "pettech",
+    "login": false
+  }
