@@ -1,7 +1,7 @@
 # PetTech
 Automatic Pet Feeder ESP8266
 
-# Require
+# Required
 <ul>
   <li>Arduino IDE 1.8.x</li>
   <li>SPIFFs tools for upload data</li>
